@@ -4,7 +4,7 @@ import './NavBar.css';
 function NavBar(props) {
     return (
         <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a className="navbar-brand" href="/">Insta-Models Memory Game</a>
+            <a className="navbar-brand" href="/clickyGame">Insta-Models Memory Game</a>
             <div className="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul className="navbar-nav text-light ">
                     <li className="nav-item the-pad">{props.guess}</li>
