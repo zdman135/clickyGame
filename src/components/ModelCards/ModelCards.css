@@ -1,0 +1,15 @@
+.card-dimensions {
+    width: 14rem;
+    height: 11rem;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-margin {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
